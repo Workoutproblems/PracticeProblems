@@ -32,7 +32,8 @@ int numJewelsInStones(string J, string S)
     
     for_each(J.begin(), J.end(), [&](char c){
         int counter = count_if(S.begin(), S.end(), [&](char a){
-            cout << "a: " << a << ", c: " << c <<  endl; return(c == a);
+            cout << "a: " << a << ", c: " << c <<  endl;
+            return(c == a);
         });
 
         count+=counter;

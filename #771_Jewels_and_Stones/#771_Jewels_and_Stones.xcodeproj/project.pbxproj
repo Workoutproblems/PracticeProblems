@@ -23,7 +23,7 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		947FC8AC2149C364009D8334 /* #771 Jewels and Stones */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "#771 Jewels and Stones"; sourceTree = BUILT_PRODUCTS_DIR; };
+		947FC8AC2149C364009D8334 /* main.cpp */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; name = main.cpp; path = "../../../../../../../../Documents/Practice/#771_Jewels_and_Stones/#771_Jewels_and_Stones/main.cpp"; sourceTree = BUILT_PRODUCTS_DIR; };
 		947FC8AF2149C364009D8334 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -49,7 +49,7 @@
 		947FC8AD2149C364009D8334 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				947FC8AC2149C364009D8334 /* #771 Jewels and Stones */,
+				947FC8AC2149C364009D8334 /* main.cpp */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -59,7 +59,8 @@
 			children = (
 				947FC8AF2149C364009D8334 /* main.cpp */,
 			);
-			path = "#771 Jewels and Stones";
+			name = "#771 Jewels and Stones";
+			path = "#771_Jewels_and_Stones";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -79,7 +80,7 @@
 			);
 			name = "#771 Jewels and Stones";
 			productName = "#771 Jewels and Stones";
-			productReference = 947FC8AC2149C364009D8334 /* #771 Jewels and Stones */;
+			productReference = 947FC8AC2149C364009D8334 /* main.cpp */;
 			productType = "com.apple.product-type.tool";
 		};
 /* End PBXNativeTarget section */
@@ -96,7 +97,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 947FC8A72149C364009D8334 /* Build configuration list for PBXProject "#771 Jewels and Stones" */;
+			buildConfigurationList = 947FC8A72149C364009D8334 /* Build configuration list for PBXProject "#771_Jewels_and_Stones" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -253,7 +254,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		947FC8A72149C364009D8334 /* Build configuration list for PBXProject "#771 Jewels and Stones" */ = {
+		947FC8A72149C364009D8334 /* Build configuration list for PBXProject "#771_Jewels_and_Stones" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				947FC8B12149C364009D8334 /* Debug */,
