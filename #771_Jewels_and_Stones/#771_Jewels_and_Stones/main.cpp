@@ -26,6 +26,7 @@ void numJewelsInStones(string J, string S){
     int set = 0;
     //  iterate over string to be searched.
     //  count() : returns number of occurences of current 's'.
+    //  runtime: O(M*N)
     for(char s : S)
         if(setJ.count(s))
             set++;
