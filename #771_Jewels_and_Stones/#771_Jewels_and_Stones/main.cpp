@@ -10,45 +10,34 @@
  Example 2:
  Input: J = "z", S = "ZZ"
  Output: 0
- 
- NOTES:
- cout_if(...);
- returns the number of occurrences of value from range that satisfies condition
- int counter = count_if (InputIterator first, InputIterator last, UnaryPredicate pred);
- 
- Unary predicate
- [&](char a){
- return(c==a);
- }
  */
 
 #include <iostream>
+#include <set>
 using namespace std;
 
 
-int numJewelsInStones(string J, string S)
-{
-    int count = 0;
+void numJewelsInStones(string J, string S){
     
-    for_each(J.begin(), J.end(), [&](char c){
-        int counter = count_if(S.begin(), S.end(), [&](char a){
-            cout << "a: " << a << ", c: " << c <<  endl;
-            return(c == a);
-        });
-
-        count+=counter;
-    });
-    return count;
+    //  Build, ea. char has a unique key.
+    //  https://www.youtube.com/watch?v=nj_ks4TPU1s
+    set<char> setJ(J.begin(), J.end());
+    
+    int set = 0;
+    //  iterate over string to be searched.
+    //  count() : returns number of occurences of current 's'.
+    for(char s : S)
+        if(setJ.count(s))
+            set++;
+    
+    cout << set << endl;
 }
-
 int main(){
-    
 
     string J = "aA";
     string S = "aAAbbbb";
-    cout << numJewelsInStones(J,S) << endl;
     
-
+    numJewelsInStones(J, S);
     
-
+    return 0;
 }
