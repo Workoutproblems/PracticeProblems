@@ -19,7 +19,7 @@ bool isMonotonic(std::vector<int> &A){
     return true;
 };
 
-int main(int argc, const char * argv[]) {
+int main() {
     
     
     std::vector<int> vec ={2,4,7,8,8,13};
