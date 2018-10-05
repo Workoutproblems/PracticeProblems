@@ -33,3 +33,60 @@ int main() {
     
     return 0;
 }
+/*
+ #include <iostream>
+ #include <vector>
+ 
+ bool isMonotonic(std::vector<int> &A){
+ 
+ auto size = A.size();
+ for (int i = 0; i < size; i++) {
+ if (A[i] >= A[i+1])
+ return false;
+ }
+ return true;
+ };
+ 
+ int main() {
+ 
+ 
+ std::vector<int> vec ={2,4,7,8,8,13};
+ 
+ if (isMonotonic(vec))
+ std::cout<<"Is monotonic\n";
+ else
+ std::cout<<"Is not monotonic\n";
+ 
+ 
+ 
+ return 0;
+ }
+ #include <iostream>
+ #include <vector>
+ 
+ bool isMonotonic(std::vector<int> &A){
+ 
+ auto size = A.size();
+ for (int i = 0; i < size; i++) {
+ if (A[i] >= A[i+1])
+ return false;
+ }
+ return true;
+ };
+ 
+ int main() {
+ 
+ 
+ std::vector<int> vec ={2,4,7,8,8,13};
+ 
+ if (isMonotonic(vec))
+ std::cout<<"Is monotonic\n";
+ else
+ std::cout<<"Is not monotonic\n";
+ 
+ 
+ 
+ return 0;
+ }
+ 
+ */
